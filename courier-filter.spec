@@ -1,10 +1,6 @@
-#
-# TODO:
-#	- pl
-#
 %include	/usr/lib/rpm/macros.perl
 Summary:	Purely Perl-based mail filter framework for the Courier
-Summary(pl):	-
+Summary(pl):	Oparty na czystym Perlu szkielet filtra pocztowego dla Couriera
 Name:		courier-filter
 Version:	0.16
 Release:	0.1
@@ -12,21 +8,26 @@ License:	GPL and Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JM/JMEHNLE/courier-filter/Courier-Filter-%{version}.tar.gz
 # Source0-md5:	de6c5d645f2b6e56c0fd15e0ec6b005f
-URL:		http://www.mehnle.net/software/courier-filter
+URL:		http://search.cpan.org/dist/Courier-Filter/
+BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl(Module::Build)
 Requires:	courier
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Courier::Filter implements the courierfilter interface as a framework for mail
-filter modules that frees modules from the duties of creating and handling the
-UNIX domain sockets, waiting for connections from Courier, and reading and
-parsing message and control files.
+Courier::Filter implements the courierfilter interface as a framework
+for mail filter modules that frees modules from the duties of creating
+and handling the UNIX domain sockets, waiting for connections from
+Courier, and reading and parsing message and control files.
 
 %description -l pl
+Courier::Filter implementuje interfejs courierfilter jako szkielet dla
+modu³ów filtruj±cych pocztê uwalniaj±cy modu³y od konieczno¶ci
+tworzenia i obs³ugi gniazd uniksowych, oczekiwania na po³±czenia z
+Couriera oraz czytania i przetwarzania wiadomo¶ci i plików
+kontrolnych.
 
 %prep
 %setup -q -n Courier-Filter-%{version}
