@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGES README TODO
 %attr(755,root,root) %{_bindir}/pureperlfilter
 %attr(755,root,root) %{_bindir}/test-filter-module
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/courier/filters/*
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/courier/filters/*
 %{_datadir}/courier-filter-perl
 %{_mandir}/man1/*
 %{_mandir}/man3/*
