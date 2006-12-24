@@ -6,7 +6,7 @@ Version:	0.16
 Release:	0.1
 License:	GPL and Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JM/JMEHNLE/courier-filter/Courier-Filter-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/J/JM/JMEHNLE/courier-filter/Courier-Filter-%{version}.tar.gz
 # Source0-md5:	de6c5d645f2b6e56c0fd15e0ec6b005f
 URL:		http://search.cpan.org/dist/Courier-Filter/
 BuildRequires:	perl-Module-Build
