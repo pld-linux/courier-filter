@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Purely Perl-based mail filter framework for the Courier
-Summary(pl.UTF-8):   Oparty na czystym Perlu szkielet filtra pocztowego dla Couriera
+Summary(pl.UTF-8):	Oparty na czystym Perlu szkielet filtra pocztowego dla Couriera
 Name:		courier-filter
 Version:	0.16
 Release:	0.1
