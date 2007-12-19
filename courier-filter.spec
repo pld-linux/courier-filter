@@ -2,12 +2,12 @@
 Summary:	Purely Perl-based mail filter framework for the Courier
 Summary(pl.UTF-8):	Oparty na czystym Perlu szkielet filtra pocztowego dla Couriera
 Name:		courier-filter
-Version:	0.16
+Version:	0.17
 Release:	0.1
 License:	GPL and Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/J/JM/JMEHNLE/courier-filter/Courier-Filter-%{version}.tar.gz
-# Source0-md5:	de6c5d645f2b6e56c0fd15e0ec6b005f
+# Source0-md5:	5757e4da0633994dbf3b66de55d455f5
 URL:		http://search.cpan.org/dist/Courier-Filter/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
